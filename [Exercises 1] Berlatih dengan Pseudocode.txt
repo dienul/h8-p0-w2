@@ -1,0 +1,66 @@
+store "massa" with 600kg
+store "percepatan benda" with 2 m/s2
+store "ΣF" without any value
+calculate "massa" times "percepatan benda"
+set "ΣF" value with calculation result
+display "ΣF"
+
+algoritma 
+1. simpan "massa" dengan nilai 600kg
+2. simpan "percepatan benda" dengan nilai 2 m/s2
+3. simpan "ΣF" tanpa diberikan nilai. ini akan kita isi nanti 
+4. hitung hasil perkalian "massa" dengan "percepatan benda"
+5. setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "ΣF"
+6. tampilkan nilai dari "ΣF"
+
+********************************soal no 2******************************************************
+store "tahun" any number
+if 
+    "tahun" mod 4 and remainder mod 100 and mod 100 equals to 0 and mod 400 equals to 0
+    display "tahun kabisat"
+else
+    display " bukan tahun kabisat"
+
+algoritma 
+1. simpan tahun dengan bernilai angka 
+2. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, habis di bagi 100 dan habis di bagi 400, lanjut ke langkah 3 
+3. tampilkan "tahun kabisat"
+4. jika langkah 2 tidak ada, maka display "bukan tahun kabisat"
+
+*********************************soal no 3******************************************************
+store "pakaian" withs 20 
+while "pakaian" <20 
+  add "pakaian" by 1
+display " mesin cuci dinyalakan"
+
+algoritma :
+1. simpan "pakaian" dengan angka 20 
+2. ulangi step 3 selama "pakaian" masih dibawah 20. jika "pakaian" sudah 20, lanjut ke step 4
+3. tambah "pakaian" dengan 1. agar semakin mendekati batas pengulangan. kembali ke step 2.
+4. tampilkan"mesin cuci dinyalakan" berarti pakaian akan dimasukkan ke mesin cuci.
+
+********************************soal no 4********************************************************
+store "kuku panjang" = p
+store "murid" withs 40
+
+while "murid" <=40
+add "murid" by 1
+if "murid" = p
+    display "dihukum"
+else
+    display "dipuji"
+end if
+
+algoritma :
+1. simpan "kuku panjang" dengan sngkatan p
+2. simpan "murid" dengan angka 40
+3. ulangi step 4 selama "murid" masih dibawah 40.
+4. jika "murid" kuku panjang, maka akan di tampilan "dihukum"
+5. jika "murid" bukan kuku panjang, maka akan di tampilkan "dipuji"
+6. jika "murid" sudah 40, maka pengulangan selesai 
+
+
+
+
+
+

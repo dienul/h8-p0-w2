@@ -1,5 +1,5 @@
-var nama = 'ibam';
-var peran ='perkosa';
+var nama = '';
+var peran ='';
 
 
 

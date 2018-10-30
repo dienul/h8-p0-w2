@@ -1,18 +1,17 @@
 // ******************Menyusun Barisan Bintang Dengan Nested Looping**************************************************
 var row = 5
-var hasil = '';
 
-for (var angka  = 0; angka < row ; angka ++){
+for (var i = 0; i < row; i++) {
+  var hasil = '';
+  for (var j = 0; j < row; j++) {
     hasil += '*'
-}
-
-for (var bintang = 0; bintang < row ; bintang++){
-    console.log(hasil);
+  }
+  console.log(hasil);
 }
   
   
 //  ******************Menyusun Barisan Bintang************************************************************************ 
-  menyusun baris bintang 
+  // menyusun baris bintang 
   var row =5;
   
     for (var angka = 0; angka < row; angka ++){

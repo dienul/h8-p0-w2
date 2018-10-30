@@ -28,7 +28,7 @@ for ( var deret = 20; deret >= 1; deret--){
   }
 // 3. angka ganjil dan genap***********************************************************************************
 
-for ( var deret = 0; deret <= 20;  deret++ ){
+for ( var deret = 1; deret <= 20;  deret++ ){
   if ( deret%2 ){  
     console.log(deret + ' = ganjil')
     }

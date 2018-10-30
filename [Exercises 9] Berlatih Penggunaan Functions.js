@@ -7,9 +7,7 @@ function shoutout( sapa = 'halo function'){
 
 //**************************************  TUGAS 2   ***************************************************************************/
 var hasilPerkalian = function calculateMultiply(num1,num2){
-    var num1 = 5
-    var num2 = 6
-    return num1*num2
+     return num1*num2
   }
   
   console.log (hasilPerkalian());
